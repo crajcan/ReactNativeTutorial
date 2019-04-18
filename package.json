@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
+    "web-app": "react-scripts start",
+    "web-app-build": "react-scripts build",
     "test": "jest"
   },
   "dependencies": {
@@ -19,12 +21,17 @@
   "devDependencies": {
     "@babel/core": "7.4.3",
     "@babel/runtime": "7.4.3",
-    "babel-jest": "24.7.1",
-    "jest": "24.7.1",
+    "jest": "23.6.0",
     "metro-react-native-babel-preset": "0.53.1",
     "react-test-renderer": "16.8.6"
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
